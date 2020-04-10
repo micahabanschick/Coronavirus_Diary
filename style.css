@@ -1,12 +1,15 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    /* margin: 20px; */
+    margin: auto;
 }
 
 body {
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Style the top navigation bar */
@@ -35,14 +38,22 @@ body {
 .content {
     background-color: #ddd;
     padding: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 figure {
     border-style: double;
-    border-width: 10px;
+    border-width: 20px;
     border-inline-start-color: blue;
     border-inline-end-color: brown;
+    text-align: center;
     display: inline-block;
+    margin:50px;
+}
+
+img {
+    width: 200px;
 }
 
 /* Style the footer */
@@ -51,7 +62,11 @@ figure {
     font-family: fantasy;
     font-weight: bold;
     font-size: large;
-    position: absolute;
-    right: 20px;
+    text-align: right;
     padding: 10px;
+}
+
+.footer:hover {
+    background-color: #ddd;
+    color: black;
 }
