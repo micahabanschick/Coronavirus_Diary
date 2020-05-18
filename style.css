@@ -74,6 +74,11 @@ img {
     /* margin-bottom: 0; */
 }
 
+.footer .info {
+    color: hsl(177, 51%, 80%);
+    margin-right: 30%;
+}
+
 .footer a {
     text-decoration: none;
     color: hsl(177, 51%, 80%);
